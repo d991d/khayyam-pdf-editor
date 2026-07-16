@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download — Khayyam PDF Editor</title>
+<meta name="description" content="Download Khayyam PDF Editor — a free, native PDF editor for macOS and Windows by d991d.">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7; color: #1a1a2e; background: #f7f5f1;
+  }
+  a { text-decoration: none; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #080f28 0%, #162458 52%, #0a1532 100%);
+    padding: 88px 24px 72px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse 55% 70% at 50% 30%, rgba(212,168,32,.13) 0%, transparent 68%);
+  }
+  .hero > * { position: relative; }
+  .badge {
+    display: inline-block; font-size: 12px; font-weight: 600; padding: 5px 13px;
+    border-radius: 99px; border: 1.5px solid rgba(212,168,32,.5);
+    color: #f0d060; background: rgba(212,168,32,.1); margin-bottom: 22px;
+  }
+  .hero h1 { color: #ffffff; font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -0.5px; }
+  .hero p.sub { color: #b8bed4; font-size: 18px; max-width: 560px; margin: 14px auto 0; }
+
+  /* Download cards */
+  .cards {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 22px; margin: -36px auto 0; position: relative; padding-bottom: 8px;
+  }
+  .card {
+    background: #ffffff; border: 1px solid #ebe7f5; border-radius: 14px;
+    padding: 32px 28px; text-align: center;
+    box-shadow: 0 14px 40px rgba(0,0,0,.09);
+  }
+  .os-icon {
+    width: 56px; height: 56px; border-radius: 14px; margin: 0 auto 16px;
+    background: linear-gradient(135deg, #f2d84e, #c89410);
+    display: flex; align-items: center; justify-content: center; font-size: 28px;
+  }
+  .card h2 { font-size: 20px; font-weight: 700; }
+  .card .req { color: #5a5a7a; font-size: 13px; margin: 6px 0 20px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 14px 30px;
+    border-radius: 9px; background: #D4A820; color: #1a1a2e;
+    font-size: 15px; font-weight: 700; transition: filter .15s;
+  }
+  .btn:hover { filter: brightness(1.08); }
+  .card .note { color: #8a8aa5; font-size: 12px; margin-top: 14px; }
+
+  /* Info sections */
+  section { padding: 56px 0; }
+  section h3 { font-size: 22px; font-weight: 800; margin-bottom: 18px; }
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 28px; margin-top: 28px; }
+  .step-num {
+    width: 42px; height: 42px; border-radius: 50%; background: #D4A820; color: #1a1a2e;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 17px; margin-bottom: 12px;
+  }
+  .step h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .step p { font-size: 14px; color: #5a5a7a; }
+  .divider { border: none; border-top: 1px solid #ebe7f5; }
+
+  ul.feat { list-style: none; margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+  ul.feat li { display: flex; gap: 10px; font-size: 15px; color: #3a3a55; }
+  ul.feat li::before { content: "✓"; color: #D4A820; font-weight: 800; flex-shrink: 0; }
+
+  .license {
+    background: #ffffff; border: 1px solid #ebe7f5; border-radius: 12px;
+    padding: 24px; font-size: 14px; color: #5a5a7a;
+  }
+  .license a { color: #b8860b; font-weight: 600; }
+
+  /* Footer */
+  footer {
+    background: #0d1840; color: #b8bed4; text-align: center;
+    padding: 32px 24px; font-size: 13px;
+  }
+  footer a { color: #f0d060; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <span class="badge">Free · Open Source · AGPL-3.0</span>
+  <h1>Download Khayyam PDF Editor</h1>
+  <p class="sub">Annotate, edit text, merge, split, and sign PDFs with a fast native app. No accounts, no subscriptions, no telemetry.</p>
+</div>
+
+<div class="wrap">
+  <div class="cards">
+    <div class="card">
+      <div class="os-icon"></div>
+      <h2>macOS</h2>
+      <p class="req">macOS 13 Ventura or later · Apple Silicon</p>
+      <a class="btn" href="https://github.com/d991d/khayyam-pdf-editor/releases/latest">↓ Download .dmg</a>
+      <p class="note">Notarized by Apple · drag to Applications</p>
+    </div>
+    <div class="card">
+      <div class="os-icon">⊞</div>
+      <h2>Windows</h2>
+      <p class="req">Windows 10 / 11 · 64-bit</p>
+      <a class="btn" href="https://github.com/d991d/khayyam-pdf-editor/releases/latest">↓ Download Installer</a>
+      <p class="note">Standard setup wizard · no admin required</p>
+    </div>
+  </div>
+
+  <section>
+    <h3>Installing on macOS</h3>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h4>Download</h4><p>Grab the .dmg from the button above.</p></div>
+      <div class="step"><div class="step-num">2</div><h4>Drag &amp; drop</h4><p>Open the .dmg and drag the app to Applications.</p></div>
+      <div class="step"><div class="step-num">3</div><h4>Open</h4><p>Launch from Applications — no admin password needed.</p></div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section>
+    <h3>What you get</h3>
+    <ul class="feat">
+      <li>Highlight, underline &amp; strikethrough</li>
+      <li>Edit existing PDF text in place</li>
+      <li>Sticky notes &amp; freehand drawing</li>
+      <li>Merge &amp; split documents</li>
+      <li>Insert images &amp; typewriter text</li>
+      <li>Rotate pages &amp; full keyboard shortcuts</li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <section>
+    <div class="license">
+      Khayyam PDF Editor is free software licensed under the
+      <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU AGPL-3.0</a>.
+      The complete source code is available on
+      <a href="https://github.com/d991d/khayyam-pdf-editor">GitHub</a> —
+      build it yourself, audit it, or contribute.
+    </div>
+  </section>
+</div>
+
+<footer>
+  Khayyam PDF Editor · <a href="https://github.com/d991d">d991d</a> · 2026<br>
+  Named after Omar Khayyam — the 11th-century Persian mathematician, astronomer, and poet.
+</footer>
+
+</body>
+</html>
