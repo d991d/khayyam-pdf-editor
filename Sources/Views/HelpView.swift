@@ -491,7 +491,7 @@ private struct AboutContent: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Khayyam PDF Editor")
                             .font(.title2.bold())
-                        Text("Version 1.0")
+                        Text("Version 1.1")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                         Text("by d991d")

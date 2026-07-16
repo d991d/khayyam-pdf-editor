@@ -504,7 +504,7 @@ class MainWindow(QMainWindow):
             self,
             "About Khayyam PDF Editor",
             "<h2>Khayyam PDF Editor</h2>"
-            "<p>Version 1.0 — Windows Edition</p>"
+            "<p>Version 1.1 — Windows Edition</p>"
             "<p>A free PDF editor for annotating, editing, merging, and signing documents.<br>"
             "No subscriptions, no cloud uploads, no privacy trade-offs.</p>"
             "<p><b>Built with</b> Python · PyQt6 · PyMuPDF</p>"

@@ -6,10 +6,10 @@
 ;   3. Compile this script with Inno Setup Compiler (ISCC.exe)
 ;      or open it in the Inno Setup IDE and press Ctrl+F9
 ;
-; Output: installer\Khayyam-PDF-Editor-Setup-1.0.0.exe
+; Output: installer\Khayyam-PDF-Editor-Setup-1.1.exe
 
 #define AppName      "Khayyam PDF Editor"
-#define AppVersion   "1.0.0"
+#define AppVersion   "1.1"
 #define AppPublisher "d991d"
 #define AppURL       "https://d991d.com/khayyam-pdf-editor/"
 #define AppExeName   "Khayyam PDF Editor.exe"

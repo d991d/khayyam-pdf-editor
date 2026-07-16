@@ -8,7 +8,7 @@ on:
       tag:
         description: "Release tag to attach the installer to (must exist)"
         required: true
-        default: "v1.0.0"
+        default: "v1.1"
 
 permissions:
   contents: write

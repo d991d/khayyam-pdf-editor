@@ -65,7 +65,7 @@ def main() -> None:
     app = QApplication(sys.argv)
     app.setApplicationName("Khayyam PDF Editor")
     app.setOrganizationName("d991d")
-    app.setApplicationVersion("1.0.0")
+    app.setApplicationVersion("1.1")
     app.setStyle("Fusion")
 
     # Force light mode regardless of Windows dark mode setting
